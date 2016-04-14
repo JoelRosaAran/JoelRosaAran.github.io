@@ -50,7 +50,7 @@ function start() {
 	}
 	 //Limita movimentação
 
-	 var topo = parseInt($(#jogador).css("top"));
+	 var topo = parseInt($("#jogador").css("top"));
 
 	 if(topo <= 0) {
 
