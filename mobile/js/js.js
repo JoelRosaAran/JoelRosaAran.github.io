@@ -38,7 +38,6 @@
 	$("#jogador")
 	.hammer({drag_max_touches:0})
 	.on("touch drag", function(ev) {
-
 		var touches = ev.gesture.touches;
 
 		ev.gesture.preventDefault();
@@ -63,6 +62,7 @@
 	 	$("#jogador").css("top",434);
 
 	 }
+	});
 
 
 
